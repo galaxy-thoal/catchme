@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'mortal_waveregular';
+    src: url('C:/Users: ;thoma: OneDrive/Documents/Codage/html/fonts/mortal_wave-webfont.woff2') format('woff2'),
+         url('C:/Users/thoma/OneDrive/Documents/Codage/html/fonts/mortal_wave-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'mortal_waveregular';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	background: url(file:///C:/Users/thoma/OneDrive/Documents/Codage/html/images.jpg) no-repeat center 10%;
+	background-size: auto;
+}
+
+h1{
+	color: #0B8CB8;
+	position: absolute;
+	style: max-widht: 100%;
+	position: center;
+	font-family: 'mortal_waveregular';
+	position: absolute;
+	font-size: 150px;
+	left: 37%;
+	top: -7%;
+}
+button{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	top: 50%;
+	left: 45%;
+	padding: 0 20px;
+	font-size: auto;
+	text-decoration: underline;
+	font-family: mortal_waveregular;
+	text-align: center center;
+	font-size: auto;
+	font-size: 35%;
+	font-display: block;
+	border: solid black 5px;
+	text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                cursor: pointer;
+}
+
+.styled:hover {
+    background-color: darkviolet;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

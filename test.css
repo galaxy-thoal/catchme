@@ -1,0 +1,60 @@
+body{
+	background: url(fond.jpg);
+	margin: 0;
+	display: flex;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.catch{
+	position: absolute;
+	width: 100px;
+	border: 3px solid black;
+	border-radius: 20%;
+	font-style: inherit;
+	animation: catch 2s linear infinite;
+}
+@keyframes catch{
+	0%{
+		left: 0%;
+		top: 0%;
+	}
+	10%{
+		left: 100%;
+		top: 100%;
+	}
+	20%{
+		left: 20%;
+		top: 50%;
+	}
+	30%{
+		left: 40%;
+		top: 70%;
+	}
+	40%{
+		left: 70%;
+		top: 0%;
+	}
+	50%{
+		left: 30%;
+		top: 50%;
+	}
+	60%{
+		left: 20%;
+		top: 100%;
+	}
+	80%{
+		left: 10%;
+		top: 0%;
+	}
+	90%{
+		left: 5%;
+		top: 60%;
+	}
+	100%{
+		left: 0%;
+		top: 0%;
+	}
+}
+.catch:hover{
+	color: red;
+}
